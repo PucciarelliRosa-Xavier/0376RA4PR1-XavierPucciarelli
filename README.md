@@ -4,7 +4,7 @@
 En aquest docuemnt s'explica el codi de cadascun dels exercicis 
 
 ## Exercici 1
-En el següent codi s'utilitza serveix per a que es canvï el color d'un h1 quan la pàgina carreguio fent servir querySelector 
+En el següent codi serveix per a que es canvï el color d'un **h1** quan la pàgina carregui  fent servir querySelector 
 ### Codi
 ```javascript
 document.addEventListener("DOMContentLoaded", () => {
@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
 ```
 
 ## Exercici 2
-El següent codi serveix per a que un paràgrad mostri el text "Hola mon" modificant el seu contingut fent servir textContent.
+El següent codi serveix per a que un paràgrad mostri el text *Hola mon* modificant el seu contingut fent servir **textContent**.
 ### Codi
 ```javascript
 let paragraf = document.getElementById("paragraf-hola")
@@ -23,7 +23,7 @@ paragraf.textContent="Hola Mon "
 ```
 
 ## Exercici 3
-Amb el següent codi es canvia el paràmetre 'src' d'una imatge amb setAttribute.
+Amb el següent codi es canvia el paràmetre **src** d'una imatge amb **setAttribute**.
 ### Codi
 ```javascript
 let imatge = document.getElementById("imatge-canviant")
@@ -43,7 +43,7 @@ boton.addEventListener("click", ()=>{
 ```
 
 ## Exercici 5
-Amb aquest codi es fa que un botó que per afegir o treure la classe "actiu" amb classList.toggle
+Amb aquest codi es fa que un botó que per afegir o treure la classe *actiu* amb **classList.toggle**
 ### Codi
 ```javascript
 let botoActiu=document.getElementById("boto-toggle")
@@ -54,7 +54,7 @@ botoActiu.addEventListener("click",()=>{
 ```
 
 ## Exercici 6
-En el següent codi hi ha un addEventListener per a que en fer click a un botó es mostri una alerta
+En el següent codi hi ha un **addEventListener** per a que en fer click a un botó es mostri una alerta
 ### Codi
 ```javascript
 boton.addEventListener("click",()=>{
@@ -63,7 +63,7 @@ boton.addEventListener("click",()=>{
 ```
 
 ## Exercici 7
-Amb el següent codi es crea un nou <li> amb createElement i s'afegeix a una <ul> amb appendChild.
+Amb el següent codi es crea un nou li amb **createElement** i s'afegeix a la llista amb **appendChild**
 
 ### Codi
 ```javascript
@@ -74,13 +74,14 @@ llista.appendChild(nouItem)
 ```
 
 ## Exercici 8
-El segÑuent codi fa que que un element desaparegui en fer-li clic gràcies al mètode remove.
+El següent codi fa que que un element desaparegui en fer-li clic gràcies al mètode **remove**
+
 ### Codi
 ```javascript
 let tocarEliminar = document.getElementById("element-eliminar");
 tocarEliminar.addEventListener("click", () => {
     tocarEliminar.remove();
-});8
+});
 ```
 
 ---
